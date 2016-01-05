@@ -5,8 +5,18 @@
     <h1>Play my Guessing Game!</h1>
     <script>
       var user = prompt('What is your name?');
+
       console.log('The user\'s name is ' + user);
+
       alert('Hi ' + user + '! See if you can guess some things about Lex.');
+
+      var answer1 = prompt("Does Lex have a cat named Murphy? ('Y' or 'N', please...)");
+      console.log("The user answered " + answer1 + " to the first question");
+      if(answer1 === "N") {
+        alert("Yep! Lex's cat is named Thumbles.");
+      } else {
+        alert("No way! Murphy is his sister's dog. (The two don't exactly get along.)");
+      }
     </script>
   </body>
   </html>
