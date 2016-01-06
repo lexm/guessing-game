@@ -6,7 +6,7 @@ alert("Hi " + user + "! See if you can guess some things about Lex.");
 
 var answer1 = prompt("Does Lex live with his brother? ('Y' or 'N', please...)");
 console.log("The user answered " + answer1 + " to the first question");
-if(answer1 === "N") {
+if(answer1.toLowerCase === "n" || answer1.toLowerCase === "no") {
   alert("Bingo! Lex lives with his sister, Cheri.");
 } else {
   alert("BZZZT. Lex doesn't have a brother, only sisters.");
@@ -14,7 +14,7 @@ if(answer1 === "N") {
 
 var answer2 = prompt("Does Lex have a cat named Murphy? (Again. please answer 'Y' or 'N'.)");
 console.log("The user answered " + answer2 + " to the second question");
-if(answer2 === "N") {
+if(answer2.toLowerCase === "n" || answer2.toLowerCase === "no") {
   alert("Yep! Lex's cat is named Thumbles.");
 } else {
   alert("No way! Murphy is his sister's dog. (He doesn't exactly get along with the cat.)");
@@ -22,7 +22,7 @@ if(answer2 === "N") {
 
 var answer3 = prompt("Does Lex watch 'Masterchef Junior' with is sister? ('Y' or 'N')");
 console.log("The user answered " + answer3 + " to the third question");
-if(answer3 === "N") {
+if(answer3.toLowerCase === "n" || answer3.toLowerCase === "no") {
   alert("Wrong. (It's her TV.)");
 } else {
   alert("Yes, and sometimes with his mother as well. (When he's by himself he prefers 'The Blacklist')");
