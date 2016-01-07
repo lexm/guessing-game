@@ -10,3 +10,11 @@ out that information when those three are done.
 
 It then asks a question with a numerical answer, and loops until the user gives
 a correct response.
+
+# Thursday Jan 7, 2016
+
+We added id tags to the html and removed all alert messages. Also added functions
+to our program. Runs smooth.
+
+Navigator: Lex Myers
+Driver: Munir Ibrahim 
