@@ -17,4 +17,11 @@ We added id tags to the html and removed all alert messages. Also added function
 to our program. Runs smooth.
 
 Navigator: Lex Myers
-Driver: Munir Ibrahim 
+Driver: Munir Ibrahim
+
+# Friday Jan 8, 2015
+
+Put questions and respones into arrays. Function into a loop. Cut out redundant code.
+
+Driver: Marshall Miller
+Navigator: Munir Ibrahim, Lex Myers
