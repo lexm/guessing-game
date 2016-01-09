@@ -83,36 +83,36 @@ function guessLoop() {
 //   }
 // }
 //
-// // Result 4
-// var resFour = document.getElementById('resultFour');
-//
-// // Question 4
-// function question4() {
-//   var answer4 = prompt("Now guess how many sisters Lex has. (Hint: it's a number greater than 0)");
-//   console.log("The user gave " + answer4 + "  as their first answer to the fourth question");
-//   for(var correct = false; correct === false;) {
-//     if(answer4 == 3) {
-//       //alert("Right on! Three is the magic number!");
-//       resFour.textContent = 'Right on! Three is the magic number!';
-//       correct = true;
-//     } else if(answer4 < 3) {
-//       answer4 = prompt("No, his Mom kept going after that. Try a larger number.");
-//       console.log("The user gave " + answer4 + "  as another answer to the fourth question");
-//     } else if(answer4 > 3){
-//       answer4 = prompt("No, if that was the case he'd be even loopier than he is already. try lower.");
-//       console.log("The user gave " + answer4 + "  as another answer to the fourth question");
-//     } else {
-//       answer4 = prompt("Are you sure that's even a number?");
-//       console.log("The user gave " + answer4 + "  as another answer to the fourth question");
-//     }
-//   }
-// }
+// Result 4
+var resFour = document.getElementById('resultFour');
+
+// Question 4
+function question4() {
+  var answer4 = prompt("Now guess how many sisters Lex has. (Hint: it's a number greater than 0)");
+  console.log("The user gave " + answer4 + "  as their first answer to the fourth question");
+  for(var correct = false; correct === false;) {
+    if(answer4 == 3) {
+      //alert("Right on! Three is the magic number!");
+      resFour.textContent = 'Right on! Three is the magic number!';
+      correct = true;
+    } else if(answer4 < 3) {
+      answer4 = prompt("No, his Mom kept going after that. Try a larger number.");
+      console.log("The user gave " + answer4 + "  as another answer to the fourth question");
+    } else if(answer4 > 3){
+      answer4 = prompt("No, if that was the case he'd be even loopier than he is already. try lower.");
+      console.log("The user gave " + answer4 + "  as another answer to the fourth question");
+    } else {
+      answer4 = prompt("Are you sure that's even a number?");
+      console.log("The user gave " + answer4 + "  as another answer to the fourth question");
+    }
+  }
+}
 //
 // // Function Call
 // question1();
 // question2();
 // question3();
 // //alert("You got " + counter + " out of 3 questions correct!");
-// var numCount = document.getElementById('numCorrect');
-// numCount.textContent = 'You got ' + counter + ' out of 3 questions correct!'
-// question4();
+var numCount = document.getElementById('numCorrect');
+numCount.textContent = 'You got ' + counter + ' out of 3 questions correct!'
+question4();
